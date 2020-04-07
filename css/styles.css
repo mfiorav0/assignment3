@@ -1,0 +1,104 @@
+h1,
+h2 {
+    color: green;
+    font-family: fantasy;
+    background-color: aqua;
+}
+
+features {
+    color: red;
+    font-family: cursive;
+}
+
+
+body {
+    background-color: gray;
+}
+
+@media screen and (max-width: 30rem) {
+
+    header,
+    main,
+    footer,
+    form {
+        flex-direction: column;
+    }
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    color: red;
+}
+
+p {
+    color: greenyellow;
+}
+
+#StoryMessage {
+    color: orange;
+    border: 5px solid #903d3d;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.rescuedtreasures {
+    color: gold;
+    font-family: cursive;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/cute-boxer-1200x675.jpg);
+    */ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) background-size: cover;
+    background-position: center;
+
+    min-height: 100vh;
+
+
+}
+
+a {
+    color: #fff;
+    font-size: 1.2em;
+    transition: background-color .3s, color .3s;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #aaa;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: baseline;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    flex: 1;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav li {
+    list-style-type: none;
+    padding: 1em;
+    
+}
+
